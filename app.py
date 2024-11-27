@@ -14,6 +14,6 @@ plot =df['alcohol']
 
 bot = st.checkbox("Afficher le graphique de la colonne alcohol")
 if bot:
-st.line_chart(plot)
+  st.line_chart(plot)
 
 
